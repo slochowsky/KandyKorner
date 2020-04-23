@@ -8,8 +8,8 @@ export default props => {
     const { locations } = useContext(LocationContext)
     const name = useRef()
     const location = useRef()
-    const manager = useRef("off")
-    const fullTime = useRef("off")
+    const manager = useRef()
+    const fullTime = useRef()
     const hourlyRate = useRef()
 
     const constructNewEmployee = () => {
